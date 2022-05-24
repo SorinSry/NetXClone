@@ -1,0 +1,253 @@
+@media (max-width: 950px) {
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1.9rem;
+    font-weight: 400;
+    color: #fff;
+  }
+
+  .form {
+    width: 50rem;
+    margin-top: 0;
+  }
+
+  .form h3 {
+    max-width: 45rem;
+    font-size: 2.2rem;
+    padding-bottom: 1.2rem;
+    margin: 0 auto;
+  }
+
+  .form-container {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form input {
+    align-self: stretch;
+  }
+
+  /* Cards */
+  .card .card-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+
+  #card-2 .card-text {
+    padding: 0;
+  }
+
+  .card h1 {
+    margin-bottom: 0.8rem;
+  }
+
+  .card .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  #card-2 .container {
+    flex-direction: column;
+  }
+  #card-4 .container {
+    flex-direction: column;
+  }
+
+  .animation-container {
+    position: relative;
+    width: 100%;
+    max-width: 60rem;
+  }
+
+  #card-1 .animation-container {
+    margin-top: -6%;
+  }
+
+  #card-2 .animation-container {
+    margin-top: -4%;
+    right: 0;
+  }
+
+  #card-3 .animation-container {
+    width: 100%;
+    left: 0;
+  }
+
+  #card-overlay-image {
+    width: 3em;
+    margin-right: 1.6rem;
+  }
+
+  #card-overlay-text p:last-child {
+    font-size: 1.45rem;
+    padding-top: 0.3rem;
+  }
+
+  #card-overlay-gif {
+    width: 3em;
+    margin-left: auto;
+  }
+
+  /* FAQ */
+  #faq .container {
+    max-width: 81rem;
+  }
+
+  #faq ul {
+    width: 90%;
+  }
+
+  #faq li {
+    font-size: 2rem;
+  }
+
+  /* Buttons */
+  .btn-log {
+    min-height: 4rem;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    padding: 0.8rem 2rem;
+    margin: 1.6rem 0;
+  }
+
+  .btn-faq {
+    font-size: 2rem;
+    padding: 0.6em 1.2em;
+  }
+}
+
+@media (max-width: 740px) {
+  /*Form */
+  .form h3 {
+    font-size: 2rem;
+  }
+
+  /* Footer */
+  .footer-links {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 550px) {
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  /* Showcase */
+  .show {
+    height: 54.2rem;
+  }
+
+  .show-top {
+    padding: 2rem 5% 0 5%;
+  }
+
+  .show-top img {
+    width: 10rem;
+  }
+
+  .show-content {
+    padding: 0 5%;
+  }
+
+  .show-content h1 {
+    font-size: 2.8rem;
+  }
+
+  .show-content h2 {
+    font-size: 1.8rem;
+    line-height: 1.5;
+  }
+
+  /* Form */
+  .form {
+    width: 100%;
+  }
+
+  .form h3 {
+    max-width: 35rem;
+    font-size: 1.8rem;
+  }
+
+  .form input {
+    min-width: 20rem;
+    min-height: 5rem;
+    flex: 1 1 auto;
+  }
+
+  /* FAQ */
+  .card {
+    padding: 5rem 5%;
+  }
+
+  #faq {
+    padding: 5rem 0;
+  }
+
+  #faq h1 {
+    padding: 0 5%;
+  }
+
+  #faq .container {
+    width: 100%;
+    align-items: stretch;
+  }
+
+  #faq ul {
+    width: 100%;
+    min-width: 33.5rem;
+  }
+
+  #form-2 {
+    padding: 0 5%;
+  }
+
+  /* Footer */
+  .footer-links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Buttons */
+  .btn {
+    padding: 0.4rem 0.8rem;
+  }
+}
+
+@media (max-width: 320px) {
+  #faq ul {
+    min-width: 30rem;
+  }
+
+  /* Footer */
+  .footer-links {
+    grid-template-columns: 1fr;
+  }
+
+  .plus_icon {
+    display: none;
+  }
+}
